@@ -10,6 +10,8 @@ This isn't ready for general usage yet. However, look at `pix2code (alpha).ipynb
 - Encoder/Decoder models
 - Testing Code (includes finding BLEU values for multiple pretrained models)
 
+I've also included [pretrained weights after 100 and 1000 epochs of training](https://github.com/andrewsoohwanlee/pix2code-pytorch/releases/tag/v0.1-alpha).
+
 ## Early Results
 
 Early results have been generally successful in terms of BLEU scores, with our max at ~0.92 after 100 epochs of training (the model started generally overfitting to the training data after that point).
