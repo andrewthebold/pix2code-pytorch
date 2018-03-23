@@ -1,4 +1,4 @@
-# pix2code (PyTorch) (WIP)
+# pix2code (PyTorch)
 
 This repo holds a basic PyTorch implementation of [pix2code](https://github.com/tonybeltramelli/pix2code) — a deep learning model that transforms GUI screenshots into code (in this case, a DSL based on Bootstrap).
 
@@ -12,7 +12,7 @@ This isn't ready for general usage yet. However, look at `pix2code (alpha).ipynb
 
 I've also included [pretrained weights after 100 and 1000 epochs of training](https://github.com/andrewsoohwanlee/pix2code-pytorch/releases/tag/v0.1-alpha).
 
-## Early Results
+## Results
 
 Early results have been generally successful in terms of BLEU scores, with our max at ~0.92 after 100 epochs of training (the model started generally overfitting to the training data after that point).
 
